@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Tip calculator app</title>
+  <link rel="stylesheet" href="CSS/style.css">
+ 
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+ 
+</head>
+<body>
+  <div class="main-title"><h1>S P L I<br>T T E R</h1></div>
+        <div class="wrapper">
+          <div class="calc">
+              <div class="calc-left">
+                <div class="cl-input">
+                  <label for="bill"><b>Bill</b></label>
+                  <div class="bill-input">
+                    <span>$</span>
+                    <input placeholder= "0" id="bill" type="number" aria-label="bill">
+                  </div>
+                </div>
+                <div class="cl-tips">
+                  <div class="cl-tip">5%</div>
+                  <div class="cl-tip">10%</div>
+                  <div class="cl-tip">15%</div>
+                  <div class="cl-tip">25%</div>
+                  <div class="cl-tip">50%</div>
+                  <div class="cl-tip custom">Custom</div>
+                </div>
+              
+              <div class="cl-input">
+                <div class="cl-inputMessage">
+                  <label for="people"><b>Number of People</b></label>
+                <div class="Error"> <div class="displayError"><b>Can't be zero</b></div>  </div>
+                </div>
+                <div class="form-input">
+                  <span>🙍‍♂️</span>
+                  <input placeholder="0" id="people" type="number" aria-label="Number of People">
+                </div>
+              </div>
+              </div>
+
+              <div class="calc-right">
+                <div class="cr-wrapper">
+                  <div class="tip">
+                    <div class="tip-info">
+                      <h3 class="tip-title">Tip Amount</h3>
+                    <p class="tip-subtitle">/person</p>
+                    </div>
+                    <h3 id="tip-per-person" class="tip-amount">
+                      $0.00
+                    </h3>
+                  </div>
+                  <div class="tip">
+                    <div class="tip-info">
+                      <h3 class="tip-title">Total</h3>
+                     <p class="tip-subtitle">/person</p>
+                    </div>
+                    <h3 id="total-per-person" class="tip-amount">
+                      $0.00
+                    </h3>
+                  </div>
+                </div>
+                <div class="tip-action">
+                  <button class="press">
+                    Reset
+                  </button>
+                </div>
+              </div>
+          </div>
+        </div>
+  
+        <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Emmakin">Akindutire Emmanuel</a>.
+  </div>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
