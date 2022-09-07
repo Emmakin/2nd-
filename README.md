@@ -18,7 +18,7 @@ Thanks for checking out this front-end coding challenge.
 
 ## The challenge
 
-Your challenge is to build out this tip calculator app and get it looking as close to the design as possible.
+The challenge is to build out this tip calculator app and get it looking as close to the design as possible.
 
 You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
@@ -32,7 +32,7 @@ I was able to:
 
 ## Building your project
 
-I was mentored by my Instructor(Adegoke Temitope @FUTURE ACADEMY AFRICA) during the beginning of this project. I had to complete it on my own. It was my first real world project. And i was glad i gave it a go
+I was mentored by my Instructor(Adegoke Temitope @FUTURE ACADEMY AFRICA) during the beginning of this project. I had to complete it on my own. It was my first project. And i was glad i gave it a go
 
 
 ## Deploying your project
