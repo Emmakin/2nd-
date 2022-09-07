@@ -37,7 +37,7 @@ I was mentored by my Instructor(Adegoke Temitope @FUTURE ACADEMY AFRICA) during 
 
 ## Deploying your project
 
-- [GitHub Pages](https://pages.github.com/)
+- [GitHub Pages](https://emmakin.github.io/2nd-/)
 
 ### Useful resources
 Stack overflow and W3schools were very helpful. There was also this particular website resource that was helpful(https://bobbyhadz.com/blog/javascript-clear-input-field-after-submit). There were other resources too which i didn't keep record of; am very sorry for this. Please forgive your boy.
