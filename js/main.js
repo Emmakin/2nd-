@@ -68,9 +68,9 @@ Array.from(tipPercentages).forEach((tipPercentageEl) => {
 
 function updateValues({ tipAmountPerPerson, totalAmountPerPerson }) {
     tipAmountPerPersonEl.innerText = 
-      tipAmountPerPerson == Infinity ? 0 : tipAmountPerPerson.toFixed(2);
+      tipAmountPerPerson == Infinity ? 0 : $`#(tipAmountPerPerson.toFixed(2))`;
     totalAmountPerPersonEl.innerText = 
-     totalAmountPerPerson == Infinity ? 0 : totalAmountPerPerson.toFixed(2);
+     totalAmountPerPerson == Infinity ? 0 : $`#(totalAmountPerPerson.toFixed(2))`;
      
   }
 
@@ -92,8 +92,8 @@ function applyActiveButton() {
 
 function blank(){
   // preventDefault();
-document.querySelector("#tip-per-person").innerText = '$0.00';
-document.querySelector("#total-per-person").innerText = '$0.00';
+document.querySelector("#tip-per-person").innerText = '#0.00';
+document.querySelector("#total-per-person").innerText = '#0.00';
 document.getElementById("bill").value = '';
 document.getElementById("people").value = '';
 Array.from(tipPercentages).forEach((tipPercentageEl) => {
